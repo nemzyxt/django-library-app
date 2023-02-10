@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # local
-    'books'
+    'books.apps.BooksConfig',
+    'apis.apps.ApisConfig'
 ]
 
 MIDDLEWARE = [
